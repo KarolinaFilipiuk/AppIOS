@@ -19,7 +19,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     lazy var persistentContainer: NSPersistentContainer = {
 
-        let container = NSPersistentContainer(name:"ItemStock")
+        let container = NSPersistentContainer(name: "USStonks")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error {
 
